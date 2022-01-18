@@ -49,7 +49,7 @@
         {
             "title": "Вклады",
             "description": "До 8% годовых",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/osago.png",
+            "background": "https://pocheshire.github.io/images/accounts.png",
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "deposit_mob",
@@ -60,7 +60,7 @@
         {
             "title": "Инвестиции",
             "description": "До 10% годовых",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/kasko.png",
+            "background": "https://pocheshire.github.io/images/investments.png",
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "deposit_mob",
