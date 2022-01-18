@@ -1,0 +1,95 @@
+{
+    "page": {
+        "key": "credit",
+        "title": "Кредиты",
+        "iconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/credit.png",
+        "activeIconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/credit-active.png",
+        "analytics": {
+            "eventCategory": "credit_mob",
+            "eventAction": "credit_mob"
+        },
+        "layout": [
+            {
+                "component": "creditProductCard",
+                "key": "creditProductCard",
+                "prefetched": true
+            },
+            {
+                "component": "offers",
+                "key": "offers.creditOffers",
+                "props": {
+                    "context": "creditOffers",
+                    "title": "Предложения",
+                    "displayType": "specialOffer",
+                    "displayCount": 1
+                },
+                "prefetched": true
+            },
+            {
+                "component": "usefulTopics",
+                "key": "usefulTopics.creditTopics",
+                "props": {
+                    "context": "creditTopics",
+                    "title": "Полезное",
+                    "description": "Полезный контент от экспертов рынка",
+                    "displayType": "cardVertical",
+                    "displayCount": 2
+                },
+                "prefetched": true
+            }
+        ]
+    },
+    "data": [
+        {
+            "title": "Кредит на любые цели",
+            "description": "Не выходя из дома",
+            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png",
+            "deepLink": "get-credit",
+            "actionText": "Получить кредит",
+            "custom": {
+                "state": "no-credit"
+            },
+            "analytics": {
+                "eventCategory": "credit_mob",
+                "eventAction": "banner_click",
+                "eventLabel": "uncover"
+            },
+            "layoutKey": "creditProductCard"
+        },
+        {
+            "title": "ПКредит до 500000 со ставкой 5,1%",
+            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
+            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "analytics": {
+                "eventCategory": "credit_mob",
+                "eventAction": "gas_station_sale_offer_click"
+            },
+            "layoutKey": "offers.creditOffers"
+        },
+
+        {
+            "title": "Статьи про кредиты",
+            "description": "Полезный контент от экспертов рынка",
+            "background": "https://finusluge.ru/image/url/examle.png",
+            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "analytics": {
+                "eventCategory": "credit_mob",
+                "eventAction": "topic_click",
+                "eventLabel": "credits_usefuls"
+            },
+            "layoutKey": "usefulTopics.creditTopics"
+        },
+        {
+            "title": "Досрочное погашение: выгодно ли отдавать деньги раньше?",
+            "description": "В марте 2020 года количество досрочных погашений кредитов",
+            "background": "https://finusluge.ru/image/url/examle.png",
+            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "analytics": {
+                "eventCategory": "credit_mob",
+                "eventAction": "topic_click",
+                "eventLabel": "credit_usefuls"
+            },
+            "layoutKey": "usefulTopics.creditTopics"
+        }
+    ]
+}

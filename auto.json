@@ -5,7 +5,7 @@
         "iconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile.png",
         "activeIconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile-active.png",
         "analytics": {
-            "eventCategory": 999,
+            "eventCategory": "automobile_mob",
             "eventAction": "automobile_mob"
         },
         "layout": [
@@ -19,7 +19,7 @@
                 "key": "recommendations.automobileRecommendations",
                 "props": {
                     "context": "automobileRecommendations",
-                    "title": 999,
+                    "title": "Рекомендуем",
                     "displayType": "concatList",
                     "displayCount": 2
                 },
@@ -43,7 +43,7 @@
                     "context": "automobileTopics",
                     "title": "Полезное",
                     "description": "Полезный контент от экспертов рынка",
-                    "displayType": "cardSimple",
+                    "displayType": "cardHorizontal",
                     "displayCount": 2
                 },
                 "prefetched": true
@@ -52,14 +52,13 @@
     },
     "data": [
         {
+            "title": "Расчехли свой автомобиль!",
+            "description": "Ваш полис ОСАГО всегда под рукой",
             "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png",
+            "deepLink": "bind-osago",
+            "actionText": "Добавить",
             "custom": {
-                "state": "default",
-                "vehicleBrand": "SEAT",
-                "vehicleModel": "Tolledo",
-                "vehicleLicensePlate": "У 417 KC 163",
-                "policyType": "OSAGO",
-                "policyEndDate": "2022-12-31"
+                "state": "no-auto"
             },
             "analytics": {
                 "eventCategory": "automobile_mob",
@@ -93,7 +92,6 @@
         {
             "title": "Получи скидку 5% на заправку",
             "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
-            "deepLink": "finuslugi://navigate?to=osago&action=getList",
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
