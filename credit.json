@@ -12,6 +12,9 @@
             {
                 "component": "creditProductCard",
                 "key": "creditProductCard",
+                "props": {
+                    "displayType": "cardSingle"
+                },
                 "prefetched": true
             },
             {

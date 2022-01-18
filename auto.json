@@ -12,6 +12,9 @@
             {
                 "component": "automobileProductCard",
                 "key": "automobileProductCard",
+                "props": {
+                    "displayType": "cardSingle"
+                },
                 "prefetched": true
             },
             {
@@ -43,7 +46,7 @@
                     "context": "automobileTopics",
                     "title": "Полезное",
                     "description": "Полезный контент от экспертов рынка",
-                    "displayType": "cardHorizontal",
+                    "displayType": "cardSimple",
                     "displayCount": 2
                 },
                 "prefetched": true
@@ -70,8 +73,8 @@
         {
             "title": "ОСАГО",
             "description": "С выгодой до 55%",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/osago.png",
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "background": "#FF0508",
+            "deepLink": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "osago_recommendation_click"
@@ -81,8 +84,8 @@
         {
             "title": "Каско",
             "description": "Расчет за 1 минуту",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/kasko.png",
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "background": "#FF0508",
+            "deepLink": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "kasko_recommendation_click"
@@ -95,7 +98,8 @@
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
-                "eventAction": "gas_station_sale_offer_click"
+                "eventAction": "gas_station_sale_offer_click",
+                "eventLabel": "some_label"
             },
             "layoutKey": "offers.automobileOffers"
         },
@@ -105,7 +109,8 @@
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
-                "eventAction": "tires_change_offer_click"
+                "eventAction": "tires_change_offer_click",
+                "eventLabel": "some_label"
             },
             "layoutKey": "offers.automobileOffers"
         },
