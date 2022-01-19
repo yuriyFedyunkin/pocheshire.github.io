@@ -80,7 +80,7 @@
                     "#FF0508"
                 ]
             },
-            "deepLink": "finuslugi://insurance/osago/buy",
+            "deepLink": "finuslugi://insurance/osago/purchase",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "osago_recommendation_click"
@@ -95,7 +95,7 @@
                     "#FF0508"
                 ]
             },
-            "deepLink": "finuslugi://insurance/kasko/buy",
+            "deepLink": "finuslugi://insurance/kasko/purchase",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "kasko_recommendation_click"
