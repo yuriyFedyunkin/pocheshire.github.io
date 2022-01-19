@@ -14,7 +14,6 @@
                 "key": "recommendations.depositRecommendations",
                 "props": {
                     "context": "depositRecommendations",
-                    "title": "Рекомендуем",
                     "displayType": "cardHorizontal",
                     "displayCount": 2
                 },
@@ -25,6 +24,7 @@
                 "key": "offers.depositOffers",
                 "props": {
                     "context": "depositOffers",
+                    "title": "Предложения",
                     "displayType": "specialOffer",
                     "displayCount": 2
                 },
