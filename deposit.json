@@ -75,7 +75,11 @@
         {
             "title": "Получи 1000 руб за первый вклад",
             "background": {
-                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+                "url": "https://pocheshire.github.io/images/offer_money.png",
+                "colors": [
+                    "#EF4A26",
+                    "#EE9F29"
+                ]
             },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
@@ -87,7 +91,11 @@
         {
             "title": "Стань агентом и заработай до 3000Р",
             "background": {
-                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+                "url": "https://pocheshire.github.io/images/offer_gift.png",
+                "colors": [
+                    "#29D764",
+                    "#3ABF8F"
+                ]
             },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
