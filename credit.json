@@ -64,12 +64,16 @@
         {
             "title": "ПКредит до 500000 со ставкой 5,1%",
             "background": {
-                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+                "url": "https://pocheshire.github.io/images/offer_psb.png",
+                "colors": [
+                    "#29D764",
+                    "#3ABF8F"
+                ]
             },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "credit_mob",
-                "eventAction": "gas_station_sale_offer_click"
+                "eventAction": "psb_offer_click"
             },
             "layoutKey": "offers.creditOffers"
         },
