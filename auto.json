@@ -60,7 +60,7 @@
             "background": {
                 "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png"
             },
-            "deepLink": "bind-osago",
+            "deepLink": "finuslugi://insurance/osago/attach",
             "actionText": "Добавить",
             "custom": {
                 "state": "no-auto"
