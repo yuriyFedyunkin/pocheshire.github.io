@@ -105,6 +105,7 @@
         {
             "title": "Получи скидку 5% на заправку",
             "background": {
+                "url": "https://pocheshire.github.io/images/offer_money.png",
                 "colors": [
                     "#BA21BD",
                     "#A151F0"
@@ -121,6 +122,7 @@
         {
             "title": "Поменяйте колеса со скидкой",
             "background": {
+                "url": "https://pocheshire.github.io/images/offer_tires.png",
                 "colors": [
                     "#4E2FE8",
                     "#516BF0"
