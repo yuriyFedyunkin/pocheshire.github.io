@@ -49,7 +49,9 @@
         {
             "title": "Вклады",
             "description": "До 8% годовых",
-            "background": "https://pocheshire.github.io/images/accounts.png",
+            "background": {
+                "url":"https://pocheshire.github.io/images/accounts.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "deposit_mob",
@@ -60,7 +62,9 @@
         {
             "title": "Инвестиции",
             "description": "До 10% годовых",
-            "background": "https://pocheshire.github.io/images/investments.png",
+            "background": {
+                "url":"https://pocheshire.github.io/images/investments.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "deposit_mob",
@@ -70,7 +74,9 @@
         },
         {
             "title": "Получи 1000 руб за первый вклад",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
+            "background": {
+                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "deposit_mob",
@@ -80,7 +86,9 @@
         },
         {
             "title": "Стань агентом и заработай до 3000Р",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
+            "background": {
+                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "deposit_mob",
@@ -91,7 +99,9 @@
         {
             "title": "Школа Московской биржи",
             "description": "Статьи, вебинары и видеокурсы о финансовых инструментах",
-            "background": "https://finusluge.ru/image/url/examle.png",
+            "background": {
+                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "deposit_mob",
@@ -103,7 +113,9 @@
         {
             "title": "Путь инвестора",
             "description": "Бесплатный курс от экспертов Московской биржи при поддержке Банка России",
-            "background": "https://finusluge.ru/image/url/examle.png",
+            "background": {
+                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "deposit_mob",

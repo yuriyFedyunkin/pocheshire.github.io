@@ -57,7 +57,9 @@
         {
             "title": "Расчехли свой автомобиль!",
             "description": "Ваш полис ОСАГО всегда под рукой",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png",
+            "background": {
+                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png"
+            },
             "deepLink": "bind-osago",
             "actionText": "Добавить",
             "custom": {
@@ -73,7 +75,11 @@
         {
             "title": "ОСАГО",
             "description": "С выгодой до 55%",
-            "background": "#FF0508",
+            "background": {
+                "colors": [
+                    "#FF0508"
+                ]
+            },
             "deepLink": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
@@ -84,7 +90,11 @@
         {
             "title": "Каско",
             "description": "Расчет за 1 минуту",
-            "background": "#FF0508",
+            "background": {
+                "colors": [
+                    "#FF0508"
+                ]
+            },
             "deepLink": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
@@ -94,7 +104,12 @@
         },
         {
             "title": "Получи скидку 5% на заправку",
-            "background": "https://pocheshire.github.io/images/offer_money.png",
+            "background": {
+                "colors": [
+                    "#BA21BD",
+                    "#A151F0"
+                ]
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
@@ -105,7 +120,12 @@
         },
         {
             "title": "Поменяйте колеса со скидкой",
-            "background": "https://pocheshire.github.io/images/offer_tires.png",
+            "background": {
+                "colors": [
+                    "#4E2FE8",
+                    "#516BF0"
+                ]
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
@@ -116,7 +136,9 @@
         },
         {
             "title": "Статьи про ОСАГО",
-            "background": "https://finusluge.ru/image/url/examle.png",
+            "background": {
+                "url":"https://finusluge.ru/image/url/examle.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
@@ -127,7 +149,9 @@
         },
         {
             "title": "Статьи про Каско",
-            "background": "https://finusluge.ru/image/url/examle.png",
+            "background": {
+                "url":"https://finusluge.ru/image/url/examle.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",

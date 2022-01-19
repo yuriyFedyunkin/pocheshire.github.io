@@ -46,7 +46,9 @@
         {
             "title": "Кредит на любые цели",
             "description": "Не выходя из дома",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png",
+            "background": {
+                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+            },
             "deepLink": "get-credit",
             "actionText": "Получить кредит",
             "custom": {
@@ -61,7 +63,9 @@
         },
         {
             "title": "ПКредит до 500000 со ставкой 5,1%",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
+            "background": {
+                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "credit_mob",
@@ -73,7 +77,9 @@
         {
             "title": "Статьи про кредиты",
             "description": "Полезный контент от экспертов рынка",
-            "background": "https://finusluge.ru/image/url/examle.png",
+            "background": {
+                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "credit_mob",
@@ -85,7 +91,9 @@
         {
             "title": "Досрочное погашение: выгодно ли отдавать деньги раньше?",
             "description": "В марте 2020 года количество досрочных погашений кредитов",
-            "background": "https://finusluge.ru/image/url/examle.png",
+            "background": {
+                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+            },
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "credit_mob",
