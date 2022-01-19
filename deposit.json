@@ -51,7 +51,7 @@
             "background": {
                 "url":"https://pocheshire.github.io/images/accounts.png"
             },
-            "actionUrl": null,
+            "actionUrl": "https://finuslugi.ru/vklady",
             "analytics": {
                 "eventCategory": "deposit_mob",
                 "eventAction": "deposits_recommendation_click"
@@ -64,7 +64,7 @@
             "background": {
                 "url":"https://pocheshire.github.io/images/investments.png"
             },
-            "actionUrl": null,
+            "actionUrl": "https://finuslugi.ru/invest/kaliningrad",
             "analytics": {
                 "eventCategory": "deposit_mob",
                 "eventAction": "investments_recommendation_click"

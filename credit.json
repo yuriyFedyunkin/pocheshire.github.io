@@ -49,8 +49,8 @@
             "background": {
                 "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
             },
-            "deepLink": null,
             "actionText": "Получить кредит",
+            "actionUrl": "https://finuslugi.ru/potrebitelskie_kredity",
             "custom": {
                 "state": "no-credit"
             },
