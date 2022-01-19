@@ -94,7 +94,7 @@
         },
         {
             "title": "Получи скидку 5% на заправку",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
+            "background": "https://pocheshire.github.io/images/offer_money.png",
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
@@ -105,7 +105,7 @@
         },
         {
             "title": "Поменяйте колеса со скидкой",
-            "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
+            "background": "https://pocheshire.github.io/images/offer_tires.png",
             "actionUrl": "https://finusluge.ru/action/url/examle",
             "analytics": {
                 "eventCategory": "automobile_mob",
