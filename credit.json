@@ -49,7 +49,7 @@
             "background": {
                 "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
             },
-            "deepLink": "get-credit",
+            "deepLink": null,
             "actionText": "Получить кредит",
             "custom": {
                 "state": "no-credit"
@@ -70,7 +70,7 @@
                     "#516BF0"
                 ]
             },
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
             "analytics": {
                 "eventCategory": "credit_mob",
                 "eventAction": "psb_offer_click"

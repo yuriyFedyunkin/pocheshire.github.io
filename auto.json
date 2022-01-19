@@ -80,7 +80,7 @@
                     "#FF0508"
                 ]
             },
-            "deepLink": "https://finusluge.ru/action/url/examle",
+            "deepLink": "finuslugi://insurance/osago/buy",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "osago_recommendation_click"
@@ -95,7 +95,7 @@
                     "#FF0508"
                 ]
             },
-            "deepLink": "https://finusluge.ru/action/url/examle",
+            "deepLink": "finuslugi://insurance/kasko/buy",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "kasko_recommendation_click"
@@ -111,7 +111,7 @@
                     "#A151F0"
                 ]
             },
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "gas_station_sale_offer_click",
@@ -128,7 +128,7 @@
                     "#516BF0"
                 ]
             },
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "actionUrl": "https://pocheshire.github.io/images/offer_tires.png",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "tires_change_offer_click",
