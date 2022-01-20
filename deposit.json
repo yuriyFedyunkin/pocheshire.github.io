@@ -36,7 +36,6 @@
                 "props": {
                     "context": "depositTopics",
                     "title": "Полезное",
-                    "description": "Полезный контент от экспертов рынка",
                     "displayType": "cardHorizontal",
                     "displayCount": 2
                 },
@@ -49,7 +48,7 @@
             "title": "Вклады",
             "description": "До 8% годовых",
             "background": {
-                "url":"https://pocheshire.github.io/images/accounts.png"
+                "url": "https://pocheshire.github.io/images/accounts.png"
             },
             "actionUrl": "https://finuslugi.ru/vklady",
             "analytics": {
@@ -62,7 +61,7 @@
             "title": "Инвестиции",
             "description": "До 10% годовых",
             "background": {
-                "url":"https://pocheshire.github.io/images/investments.png"
+                "url": "https://pocheshire.github.io/images/investments.png"
             },
             "actionUrl": "https://finuslugi.ru/invest/kaliningrad",
             "analytics": {
@@ -104,44 +103,44 @@
             "layoutKey": "offers.depositOffers"
         },
         {
-            "actionUrl": "https:\/\/finusluge.ru\/action\/url\/examle",
+            "actionUrl": "https://school.moex.com",
             "analytics": {
                 "eventAction": "topic_click",
                 "eventCategory": "automobile_mob",
-                "eventLabel": "kasko_usefuls"
+                "eventLabel": "osago_usefuls"
             },
             "background": {
-                "url": "https://finuslugi.ru/icons/home/ico1.svg"
+                "url": "https://school.moex.com/f02b2869e96b2c86d4d7fa947df3260a.png"
             },
-            "layoutKey": "usefulTopics.depositTopics",
+            "layoutKey": "usefulTopics.automobileTopics",
             "title": "Школа Московской биржи",
+            "description": "Статьи, вебинары и видеокурсы о финансовых инструментах"
+        },
+        {
+            "actionUrl": "https://school.moex.com/put-investora/?utm_source=google&utm_medium=cpc&utm_campaign=moex-perf_ga_shkola_nov-21_conv_search_n_msk&utm_content=re-%7Bretargeting_id%7D%7Cgr-%7Bgbid%7D%7Cad-%7Bad_id%7D%7Cst-%7Bsource_type%7D%7Cs-%7Bsource%7D%7Cp-%7Bposition%7D%7Cpt-%7Bposition_type%7D%7Cdt-%7Bdevice_type%7D%7Caud-%7Bcoef_goal_context_id%7D&utm_term=kw-%7Bkeyword%7D%7Cph-%7Bphrase_id%7D&gclid=Cj0KCQiAraSPBhDuARIsAM3Js4rvEKo-tXJjmj-mFIeFQOGS_-7EuEXEyG1xPu81vRWxCdO293BOg50aAi8sEALw_wcB",
+            "analytics": {
+                "eventAction": "topic_click",
+                "eventCategory": "automobile_mob",
+                "eventLabel": "osago_usefuls"
+            },
+            "background": {
+                "url": "https://www.finversia.ru/site/public/files/17/16256-372.jpg"
+            },
+            "layoutKey": "usefulTopics.automobileTopics",
+            "title": "Путь инвестора",
             "description": "Бесплатный курс от экспертов Московской биржи при поддержке Банка России"
         },
         {
-            "title": "Путь инвестора",
-            "description": "Бесплатный курс от экспертов Московской биржи при поддержке Банка России",
-            "background": {
-                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
-            },
-            "actionUrl": "https://finusluge.ru/action/url/examle",
-            "analytics": {
-                "eventCategory": "deposit_mob",
-                "eventAction": "topic_click",
-                "eventLabel": "investor_way"
-            },
-            "layoutKey": "usefulTopics.depositTopics"
-        },
-        {
-            "actionUrl": "https:\/\/finusluge.ru\/action\/url\/examle",
+            "actionUrl": "https://dengi-delayut-dengi.simplecast.com",
             "analytics": {
                 "eventAction": "topic_click",
                 "eventCategory": "automobile_mob",
-                "eventLabel": "kasko_usefuls"
+                "eventLabel": "osago_usefuls"
             },
             "background": {
-                "url": "https://east-fruit.com/wp-content/uploads/2020/10/1519579130_0_218_2864_1829_600x0_80_0_0_cd9dc628603b0954297577ffd3ba697e.jpg"
+                "url": "https://hudognik.net/cache/60429_gal2.jpg"
             },
-            "layoutKey": "usefulTopics.depositTopics",
+            "layoutKey": "usefulTopics.automobileTopics",
             "title": "Деньги делают деньги",
             "description": "Слушайте подкаст от Московской биржи"
         }
