@@ -58,7 +58,7 @@
             "title": "Расчехли свой автомобиль!",
             "description": "Ваш полис ОСАГО всегда под рукой",
             "background": {
-                "url":"https://pocheshire.github.io/images/uncover.png"
+                "url": "https://pocheshire.github.io/images/uncover.png"
             },
             "deepLink": "finuslugi://insurance/osago/attach",
             "actionText": "Добавить",
@@ -137,30 +137,30 @@
             "layoutKey": "offers.automobileOffers"
         },
         {
-            "actionUrl": "https:\/\/finusluge.ru\/action\/url\/examle",
+            "actionUrl": "https://en.wikipedia.org/wiki/Insurance",
             "analytics": {
                 "eventAction": "topic_click",
                 "eventCategory": "automobile_mob",
                 "eventLabel": "osago_usefuls"
             },
             "background": {
-                "url": "https://assets.finuslugi.ru/mp-assets/images/home/promo/banner3.png"
-            },
-            "layoutKey": "usefulTopics.automobileTopics",
-            "title": "Статьи про КАСКО"
-        },
-        {
-            "actionUrl": "https:\/\/finusluge.ru\/action\/url\/examle",
-            "analytics": {
-                "eventAction": "topic_click",
-                "eventCategory": "automobile_mob",
-                "eventLabel": "kasko_usefuls"
-            },
-            "background": {
-                "url": "https://finuslugi.ru/icons/home/ico1.svg"
+                "url": "https://pngimg.com/uploads/apple/apple_PNG12440.png"
             },
             "layoutKey": "usefulTopics.automobileTopics",
             "title": "Статьи про ОСАГО"
+        },
+        {
+            "actionUrl": "https://en.wikipedia.org/wiki/Comprehensive_Cover",
+            "analytics": {
+                "eventAction": "topic_click",
+                "eventCategory": "automobile_mob",
+                "eventLabel": "osago_usefuls"
+            },
+            "background": {
+                "url": "https://pngimg.com/uploads/porsche/porsche_PNG10622.png"
+            },
+            "layoutKey": "usefulTopics.automobileTopics",
+            "title": "Статьи про КАСКО"
         }
     ]
 }
