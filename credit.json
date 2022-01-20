@@ -30,15 +30,14 @@
             },
             {
                 "component": "usefulTopics",
-                "key": "usefulTopics.creditTopics",
+                "key": "usefulTopics.credits",
+                "prefetched": true,
                 "props": {
-                    "context": "creditTopics",
-                    "title": "Полезное",
-                    "description": "Полезный контент от экспертов рынка",
-                    "displayType": "cardVertical",
-                    "displayCount": 2
-                },
-                "prefetched": true
+                    "context": "credits",
+                    "description": "Посмотреть организации своего города, отсортировать, найти по названию",
+                    "displayCount": 2,
+                    "title": "Каталог"
+                }
             }
         ]
     },
@@ -47,7 +46,7 @@
             "title": "Кредит на любые цели",
             "description": "Не выходя из дома",
             "background": {
-                "url":"https://pocheshire.github.io/images/banner_key.png"
+                "url": "https://pocheshire.github.io/images/banner_key.png"
             },
             "actionText": "Получить кредит",
             "actionUrl": "https://finuslugi.ru/potrebitelskie_kredity",
@@ -77,34 +76,31 @@
             },
             "layoutKey": "offers.creditOffers"
         },
-
         {
-            "title": "Статьи про кредиты",
-            "description": "Полезный контент от экспертов рынка",
-            "background": {
-                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
-            },
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "actionUrl": "https://en.wikipedia.org/wiki/Bank",
             "analytics": {
-                "eventCategory": "credit_mob",
                 "eventAction": "topic_click",
-                "eventLabel": "credits_usefuls"
+                "eventCategory": "credits_mob",
+                "eventLabel": "banks"
             },
-            "layoutKey": "usefulTopics.creditTopics"
+            "background": {
+                "url": "https://s-english.ru/images/likatama/12-4.jpg"
+            },
+            "layoutKey": "usefulTopics.credits",
+            "title": "Банки"
         },
         {
-            "title": "Досрочное погашение: выгодно ли отдавать деньги раньше?",
-            "description": "В марте 2020 года количество досрочных погашений кредитов",
-            "background": {
-                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
-            },
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "actionUrl": "https://en.wikipedia.org/wiki/Insurance",
             "analytics": {
-                "eventCategory": "credit_mob",
                 "eventAction": "topic_click",
-                "eventLabel": "credit_usefuls"
+                "eventCategory": "credits_mob",
+                "eventLabel": "insurance"
             },
-            "layoutKey": "usefulTopics.creditTopics"
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/225_years_of_Insurance_in_Russia_2011.jpg/220px-225_years_of_Insurance_in_Russia_2011.jpg"
+            },
+            "layoutKey": "usefulTopics.credits",
+            "title": "Страховые"
         }
     ]
 }
