@@ -137,30 +137,30 @@
             "layoutKey": "offers.automobileOffers"
         },
         {
-            "title": "Статьи про ОСАГО",
-            "background": {
-                "url":"https://finusluge.ru/image/url/examle.png"
-            },
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "actionUrl": "https:\/\/finusluge.ru\/action\/url\/examle",
             "analytics": {
-                "eventCategory": "automobile_mob",
                 "eventAction": "topic_click",
+                "eventCategory": "automobile_mob",
                 "eventLabel": "osago_usefuls"
             },
-            "layoutKey": "usefulTopics.automobileTopics"
+            "background": {
+                "url": "https://assets.finuslugi.ru/mp-assets/images/home/promo/banner3.png"
+            },
+            "layoutKey": "usefulTopics.automobileTopics",
+            "title": "Статьи про КАСКО"
         },
         {
-            "title": "Статьи про Каско",
-            "background": {
-                "url":"https://finusluge.ru/image/url/examle.png"
-            },
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "actionUrl": "https:\/\/finusluge.ru\/action\/url\/examle",
             "analytics": {
-                "eventCategory": "automobile_mob",
                 "eventAction": "topic_click",
+                "eventCategory": "automobile_mob",
                 "eventLabel": "kasko_usefuls"
             },
-            "layoutKey": "usefulTopics.automobileTopics"
+            "background": {
+                "url": "https://finuslugi.ru/icons/home/ico1.svg"
+            },
+            "layoutKey": "usefulTopics.automobileTopics",
+            "title": "Статьи про ОСАГО"
         }
     ]
 }

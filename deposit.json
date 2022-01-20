@@ -104,18 +104,18 @@
             "layoutKey": "offers.depositOffers"
         },
         {
-            "title": "Школа Московской биржи",
-            "description": "Статьи, вебинары и видеокурсы о финансовых инструментах",
-            "background": {
-                "url":"https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
-            },
-            "actionUrl": "https://finusluge.ru/action/url/examle",
+            "actionUrl": "https:\/\/finusluge.ru\/action\/url\/examle",
             "analytics": {
-                "eventCategory": "deposit_mob",
                 "eventAction": "topic_click",
-                "eventLabel": "school_moex"
+                "eventCategory": "automobile_mob",
+                "eventLabel": "kasko_usefuls"
             },
-            "layoutKey": "usefulTopics.depositTopics"
+            "background": {
+                "url": "https://finuslugi.ru/icons/home/ico1.svg"
+            },
+            "layoutKey": "usefulTopics.depositTopics",
+            "title": "Школа Московской биржи",
+            "description": "Бесплатный курс от экспертов Московской биржи при поддержке Банка России"
         },
         {
             "title": "Путь инвестора",
@@ -130,6 +130,20 @@
                 "eventLabel": "investor_way"
             },
             "layoutKey": "usefulTopics.depositTopics"
+        },
+        {
+            "actionUrl": "https:\/\/finusluge.ru\/action\/url\/examle",
+            "analytics": {
+                "eventAction": "topic_click",
+                "eventCategory": "automobile_mob",
+                "eventLabel": "kasko_usefuls"
+            },
+            "background": {
+                "url": "https://east-fruit.com/wp-content/uploads/2020/10/1519579130_0_218_2864_1829_600x0_80_0_0_cd9dc628603b0954297577ffd3ba697e.jpg"
+            },
+            "layoutKey": "usefulTopics.depositTopics",
+            "title": "Деньги делают деньги",
+            "description": "Слушайте подкаст от Московской биржи"
         }
     ]
 }
