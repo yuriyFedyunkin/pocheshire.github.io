@@ -112,7 +112,7 @@
             "background": {
                 "url": "https://school.moex.com/f02b2869e96b2c86d4d7fa947df3260a.png"
             },
-            "layoutKey": "usefulTopics.automobileTopics",
+            "layoutKey": "usefulTopics.depositTopics",
             "title": "Школа Московской биржи",
             "description": "Статьи, вебинары и видеокурсы о финансовых инструментах"
         },
@@ -126,7 +126,7 @@
             "background": {
                 "url": "https://www.finversia.ru/site/public/files/17/16256-372.jpg"
             },
-            "layoutKey": "usefulTopics.automobileTopics",
+            "layoutKey": "usefulTopics.depositTopics",
             "title": "Путь инвестора",
             "description": "Бесплатный курс от экспертов Московской биржи при поддержке Банка России"
         },
@@ -140,7 +140,7 @@
             "background": {
                 "url": "https://hudognik.net/cache/60429_gal2.jpg"
             },
-            "layoutKey": "usefulTopics.automobileTopics",
+            "layoutKey": "usefulTopics.depositTopics",
             "title": "Деньги делают деньги",
             "description": "Слушайте подкаст от Московской биржи"
         }
