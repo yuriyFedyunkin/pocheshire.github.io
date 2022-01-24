@@ -47,7 +47,7 @@
                     "title": "Полезное",
                     "description": "Полезный контент от экспертов рынка",
                     "displayType": "cardSimple",
-                    "displayCount": 1
+                    "displayCount": 2
                 },
                 "prefetched": true
             }
@@ -135,6 +135,19 @@
                 "eventLabel": "some_label"
             },
             "layoutKey": "offers.automobileOffers"
+        },
+        {
+            "actionUrl": "https://en.wikipedia.org/wiki/Insurance",
+            "analytics": {
+                "eventAction": "topic_click",
+                "eventCategory": "automobile_mob",
+                "eventLabel": "osago_usefuls"
+            },
+            "background": {
+                "url": "https://pngimg.com/uploads/apple/apple_PNG12440.png"
+            },
+            "layoutKey": "usefulTopics.automobileTopics",
+            "title": "Статьи про ОСАГО"
         },
         {
             "actionUrl": "https://en.wikipedia.org/wiki/Comprehensive_Cover",
