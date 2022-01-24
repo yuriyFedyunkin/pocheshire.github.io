@@ -17,6 +17,17 @@
                 },
                 "prefetched": true
             },
+	    {
+                "component": "offers",
+                "key": "offers.automobileOffers",
+                "props": {
+                    "context": "automobileOffers",
+                    "title": "Предложения",
+                    "displayType": "specialOffer",
+                    "displayCount": 2
+                },
+                "prefetched": true
+            },
             {
                 "component": "recommendations",
                 "key": "recommendations.automobileRecommendations",
@@ -24,17 +35,6 @@
                     "context": "automobileRecommendations",
                     "title": "Рекомендуем",
                     "displayType": "concatList",
-                    "displayCount": 2
-                },
-                "prefetched": true
-            },
-            {
-                "component": "offers",
-                "key": "offers.automobileOffers",
-                "props": {
-                    "context": "automobileOffers",
-                    "title": "Предложения",
-                    "displayType": "specialOffer",
                     "displayCount": 2
                 },
                 "prefetched": true
@@ -72,6 +72,21 @@
             },
             "layoutKey": "automobileProductCard"
         },
+		{
+            "title": "Каско",
+            "description": "Расчет за 1 минуту",
+            "background": {
+                "colors": [
+                    "#FF0508"
+                ]
+            },
+            "deepLink": "finuslugi://insurance/kasko/purchase",
+            "analytics": {
+                "eventCategory": "automobile_mob",
+                "eventAction": "kasko_recommendation_click"
+            },
+            "layoutKey": "recommendations.automobileRecommendations"
+        },
         {
             "title": "ОСАГО",
             "description": "С выгодой до 55%",
@@ -88,27 +103,12 @@
             "layoutKey": "recommendations.automobileRecommendations"
         },
         {
-            "title": "Каско",
-            "description": "Расчет за 1 минуту",
-            "background": {
-                "colors": [
-                    "#FF0508"
-                ]
-            },
-            "deepLink": "finuslugi://insurance/kasko/purchase",
-            "analytics": {
-                "eventCategory": "automobile_mob",
-                "eventAction": "kasko_recommendation_click"
-            },
-            "layoutKey": "recommendations.automobileRecommendations"
-        },
-        {
             "title": "Получи скидку 5% на заправку",
             "background": {
                 "url": "https://pocheshire.github.io/images/offer_money.png",
                 "colors": [
-                    "#BA21BD",
-                    "#A151F0"
+                    "#D80E6B",
+                    "#E9070B"
                 ]
             },
             "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
@@ -124,8 +124,8 @@
             "background": {
                 "url": "https://pocheshire.github.io/images/offer_tires.png",
                 "colors": [
-                    "#4E2FE8",
-                    "#516BF0"
+                    "#3BC090",
+                    "#29D764"
                 ]
             },
             "actionUrl": "https://pocheshire.github.io/images/offer_tires.png",
