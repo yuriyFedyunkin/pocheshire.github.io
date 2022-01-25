@@ -84,7 +84,7 @@
                 "eventLabel": "banks"
             },
             "background": {
-                "url": "https://pocheshire.github.io/images/credit-catalog-1.png"
+                "url": "https://pocheshire.github.io/images/new-credit-catalog-1.png"
             },
             "layoutKey": "usefulTopics.credits",
             "title": "Банки"
@@ -97,7 +97,7 @@
                 "eventLabel": "insurance"
             },
             "background": {
-                "url": "https://pocheshire.github.io/images/credit-catalog-2.png"
+                "url": "https://pocheshire.github.io/images/new-credit-catalog-2.png"
             },
             "layoutKey": "usefulTopics.credits",
             "title": "Страховые"
