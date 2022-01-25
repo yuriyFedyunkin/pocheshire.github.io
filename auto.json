@@ -1,7 +1,7 @@
 {
     "page": {
         "key": "automobile",
-        "title": "Автомобиль",
+        "title": "Страхование",
         "iconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile.png",
         "activeIconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile-active.png",
         "analytics": {
@@ -17,18 +17,7 @@
                 },
                 "prefetched": true
             },
-            {
-                "component": "recommendations",
-                "key": "recommendations.automobileRecommendations",
-                "props": {
-                    "context": "automobileRecommendations",
-                    "title": "Рекомендуем",
-                    "displayType": "concatList",
-                    "displayCount": 2
-                },
-                "prefetched": true
-            },
-            {
+	    {
                 "component": "offers",
                 "key": "offers.automobileOffers",
                 "props": {
@@ -40,11 +29,22 @@
                 "prefetched": true
             },
             {
+                "component": "recommendations",
+                "key": "recommendations.automobileRecommendations",
+                "props": {
+                    "context": "automobileRecommendations",
+                    "title": "Рекомендации",
+                    "displayType": "concatList",
+                    "displayCount": 2
+                },
+                "prefetched": true
+            },
+            {
                 "component": "usefulTopics",
                 "key": "usefulTopics.automobileTopics",
                 "props": {
                     "context": "automobileTopics",
-                    "title": "Полезное",
+                    "title": "Новости",
                     "description": "Полезный контент от экспертов рынка",
                     "displayType": "cardSimple",
                     "displayCount": 2
@@ -72,27 +72,12 @@
             },
             "layoutKey": "automobileProductCard"
         },
-        {
-            "title": "ОСАГО",
-            "description": "С выгодой до 55%",
-            "background": {
-                "colors": [
-                    "#FF0508"
-                ]
-            },
-            "deepLink": "finuslugi://insurance/osago/purchase",
-            "analytics": {
-                "eventCategory": "automobile_mob",
-                "eventAction": "osago_recommendation_click"
-            },
-            "layoutKey": "recommendations.automobileRecommendations"
-        },
-        {
+		{
             "title": "Каско",
             "description": "Расчет за 1 минуту",
             "background": {
                 "colors": [
-                    "#FF0508"
+                    "#310E64"
                 ]
             },
             "deepLink": "finuslugi://insurance/kasko/purchase",
@@ -103,12 +88,27 @@
             "layoutKey": "recommendations.automobileRecommendations"
         },
         {
+            "title": "ОСАГО",
+            "description": "С выгодой до 55%",
+            "background": {
+                "colors": [
+                    "#310E64"
+                ]
+            },
+            "deepLink": "finuslugi://insurance/osago/purchase",
+            "analytics": {
+                "eventCategory": "automobile_mob",
+                "eventAction": "osago_recommendation_click"
+            },
+            "layoutKey": "recommendations.automobileRecommendations"
+        },
+        {
             "title": "Получи скидку 5% на заправку",
             "background": {
                 "url": "https://pocheshire.github.io/images/offer_money.png",
                 "colors": [
-                    "#BA21BD",
-                    "#A151F0"
+                    "#D80E6B",
+                    "#E9070B"
                 ]
             },
             "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
@@ -124,8 +124,8 @@
             "background": {
                 "url": "https://pocheshire.github.io/images/offer_tires.png",
                 "colors": [
-                    "#4E2FE8",
-                    "#516BF0"
+                    "#3BC090",
+                    "#29D764"
                 ]
             },
             "actionUrl": "https://pocheshire.github.io/images/offer_tires.png",
@@ -144,7 +144,7 @@
                 "eventLabel": "osago_usefuls"
             },
             "background": {
-                "url": "https://pocheshire.github.io/images/new-car-useful.png"
+                "url": "https://pngimg.com/uploads/apple/apple_PNG12440.png"
             },
             "layoutKey": "usefulTopics.automobileTopics",
             "title": "Статьи про ОСАГО"
@@ -157,7 +157,7 @@
                 "eventLabel": "osago_usefuls"
             },
             "background": {
-                "url": "https://pocheshire.github.io/images/new-car-useful.png"
+                "url": "https://pngimg.com/uploads/porsche/porsche_PNG10622.png"
             },
             "layoutKey": "usefulTopics.automobileTopics",
             "title": "Статьи про КАСКО"
