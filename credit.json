@@ -84,7 +84,7 @@
                 "eventLabel": "banks"
             },
             "background": {
-                "url": "https://s-english.ru/images/likatama/12-4.jpg"
+                "url": "https://pocheshire.github.io/images/credit-catalog-1.png"
             },
             "layoutKey": "usefulTopics.credits",
             "title": "Банки"
@@ -97,7 +97,7 @@
                 "eventLabel": "insurance"
             },
             "background": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/225_years_of_Insurance_in_Russia_2011.jpg/220px-225_years_of_Insurance_in_Russia_2011.jpg"
+                "url": "https://pocheshire.github.io/images/credit-catalog-2.png"
             },
             "layoutKey": "usefulTopics.credits",
             "title": "Страховые"
