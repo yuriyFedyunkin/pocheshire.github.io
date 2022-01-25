@@ -110,7 +110,7 @@
                 "eventLabel": "osago_usefuls"
             },
             "background": {
-                "url": "https://pocheshire.github.io/images/deposit-useful-1.png"
+                "url": "https://pocheshire.github.io/images/new-deposit-useful-1.png"
             },
             "layoutKey": "usefulTopics.depositTopics",
             "title": "Школа Московской биржи",
@@ -124,7 +124,7 @@
                 "eventLabel": "osago_usefuls"
             },
             "background": {
-                "url": "https://pocheshire.github.io/images/deposit-useful-2.png"
+                "url": "https://pocheshire.github.io/images/new-deposit-useful-2.png"
             },
             "layoutKey": "usefulTopics.depositTopics",
             "title": "Путь инвестора",
@@ -138,7 +138,7 @@
                 "eventLabel": "osago_usefuls"
             },
             "background": {
-                "url": "https://pocheshire.github.io/images/deposit-useful-3.png"
+                "url": "https://pocheshire.github.io/images/new-deposit-useful-3.png"
             },
             "layoutKey": "usefulTopics.depositTopics",
             "title": "Деньги делают деньги",
