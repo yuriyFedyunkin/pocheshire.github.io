@@ -63,7 +63,7 @@
             "deepLink": "finuslugi://insurance/osago/attach",
             "actionText": "Добавить",
             "custom": {
-                "state": "no-auto"
+                "state": "default"
             },
             "analytics": {
                 "eventCategory": "automobile_mob",
