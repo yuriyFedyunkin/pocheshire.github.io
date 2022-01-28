@@ -80,7 +80,7 @@
                     "#FF0508"
                 ]
             },
-            "deepLink": "finuslugi://insurance/osago/purchase",
+            "deepLink": "finuslugi://auto/details",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "osago_recommendation_click"
