@@ -1,0 +1,83 @@
+{
+    "page": {
+        "key": "automobile_info",
+        "title": "Информация об автомобиле",
+        "iconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile.png",
+        "activeIconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile-active.png",
+        "analytics": {
+            "eventCategory": "automobile_mob",
+            "eventAction": "automobile_mob"
+        },
+        "layout": [
+            {
+                "component": "automobileProductCard",
+                "key": "automobileProductCard",
+                "props": {
+                    "displayType": "cardSingle"
+                },
+                "prefetched": true
+            },
+            {
+                "component": "recommendations",
+                "key": "recommendations.autoDetailsRecommendation",
+                "props": {
+                    "context": "automobileRecommendations",
+                    "title": "Действия",
+                    "displayType": "concatList",
+                    "displayCount": 2
+                },
+                "prefetched": true
+            }
+        ]
+    },
+    "data": [
+        {
+            "title": "BMW 5 series",
+            "description": "ОСАГО",
+            "background": {
+                "url": "https://pocheshire.github.io/images/uncover.png"
+            },
+            "deepLink": "finuslugi://insurance/osago/attach",
+            "actionText": "Добавить",
+            "custom": {
+                "state": "default"
+            },
+            "analytics": {
+                "eventCategory": "automobile_mob",
+                "eventAction": "banner_click",
+                "eventLabel": "uncover"
+            },
+            "layoutKey": "automobileProductCard"
+        },
+        {
+            "title": "Скачать ОСАГО",
+            "description": null,
+            "background": {
+                "colors": [
+                    "#FF0508"
+                ]
+            },
+            "deepLink": "finuslugi://insurance/osago/purchase",
+            "analytics": {
+                "eventCategory": "automobile_mob",
+                "eventAction": "osago_recommendation_click"
+            },
+            "layoutKey": "recommendations.autoDetailsRecommendation"
+        },
+        {
+            "title": "Купить ОСАГО",
+            "description": null,
+            "background": {
+                "colors": [
+                    "#FF0508"
+                ]
+            },
+            "deepLink": "finuslugi://insurance/osago/purchase",
+            "analytics": {
+                "eventCategory": "automobile_mob",
+                "eventAction": "kasko_recommendation_click"
+            },
+            "layoutKey": "recommendations.autoDetailsRecommendation"
+        }
+    ]
+}
