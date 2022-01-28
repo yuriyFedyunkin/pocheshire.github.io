@@ -60,7 +60,7 @@
             "background": {
                 "url": "https://pocheshire.github.io/images/uncover.png"
             },
-            "deepLink": "finuslugi://insurance/osago/attach",
+            "deepLink": "finuslugi://auto/details",
             "actionText": "Добавить",
             "custom": {
                 "state": "default"
@@ -80,7 +80,7 @@
                     "#FF0508"
                 ]
             },
-            "deepLink": "finuslugi://auto/details",
+            "deepLink": "finuslugi://insurance/osago/purchase",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "osago_recommendation_click"
