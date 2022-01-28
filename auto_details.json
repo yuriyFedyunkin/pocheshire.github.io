@@ -1,7 +1,7 @@
 {
     "page": {
         "key": "automobile_info",
-        "title": "Информация об автомобиле",
+        "title": "Автомобиль",
         "iconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile.png",
         "activeIconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile-active.png",
         "analytics": {
@@ -32,15 +32,16 @@
     },
     "data": [
         {
-            "title": "BMW 5 series",
-            "description": "ОСАГО",
             "background": {
                 "url": "https://pocheshire.github.io/images/uncover.png"
             },
-            "deepLink": "finuslugi://insurance/osago/attach",
-            "actionText": "Добавить",
             "custom": {
-                "state": "default"
+                "state": "default",
+                "vehicleBrand": "BMW",
+                "vehicleModel": "5 series",
+                "vehicleLicensePlate": "А 111 АА 777",
+                "policyType": "ОСАГО",
+                "policyEndDate": "2022-06-06T15:45:13",
             },
             "analytics": {
                 "eventCategory": "automobile_mob",
@@ -57,7 +58,6 @@
                     "#FF0508"
                 ]
             },
-            "deepLink": "finuslugi://insurance/osago/purchase",
             "analytics": {
                 "eventCategory": "automobile_mob",
                 "eventAction": "osago_recommendation_click"
