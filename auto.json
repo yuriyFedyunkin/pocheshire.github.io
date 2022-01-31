@@ -1,7 +1,7 @@
 {
     "page": {
         "key": "automobile",
-        "title": "Автомобиль",
+        "title": "Страхование",
         "iconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile.png",
         "activeIconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile-active.png",
         "analytics": {
@@ -24,7 +24,7 @@
                     "context": "automobileRecommendations",
                     "title": "Рекомендуем",
                     "displayType": "concatList",
-                    "displayCount": 2
+                    "displayCount": 3
                 },
                 "prefetched": true
             },
@@ -35,7 +35,7 @@
                     "context": "automobileOffers",
                     "title": "Предложения",
                     "displayType": "specialOffer",
-                    "displayCount": 2
+                    "displayCount": 3
                 },
                 "prefetched": true
             },
@@ -55,17 +55,15 @@
     },
     "data": [
         {
+            "title": "Добавьте ОСАГО",
+            "description": "Чтобы Ваш полис всегда был под рукой",
             "background": {
                 "url": "https://pocheshire.github.io/images/uncover.png"
             },
-            "deepLink": "finuslugi://insurance/osago/vehicle_details/123",
+            "deepLink": "finuslugi://insurance/osago/attach",
+            "actionText": "Добавить",
             "custom": {
-                "state": "default",
-                "vehicleBrand": "BMW",
-                "vehicleModel": "5 series",
-                "vehicleLicensePlate": "А 111 АА 777",
-                "policyType": "ОСАГО",
-                "policyEndDate": "2022-06-06T15:45:13",
+                "state": "no-auto"
             },
             "analytics": {
                 "eventCategory": "automobile_mob",
@@ -79,8 +77,9 @@
             "description": "С выгодой до 55%",
             "background": {
                 "colors": [
-                    "#FF0508"
-                ]
+                    "#F3F3F8"
+                ],
+                "url": "https://pocheshire.github.io/images/auto-recommendation1.png"
             },
             "deepLink": "finuslugi://insurance/osago/purchase",
             "analytics": {
@@ -94,8 +93,9 @@
             "description": "Расчет за 1 минуту",
             "background": {
                 "colors": [
-                    "#FF0508"
-                ]
+                    "#F3F3F8"
+                ],
+                "url": "https://pocheshire.github.io/images/auto-recommendation2.png"
             },
             "deepLink": "finuslugi://insurance/kasko/purchase",
             "analytics": {
@@ -105,12 +105,27 @@
             "layoutKey": "recommendations.automobileRecommendations"
         },
         {
-            "title": "Получи скидку 5% на заправку",
+            "title": "Страхование ипотеки",
+            "description": "Подбор и оформление онлайн",
             "background": {
-                "url": "https://pocheshire.github.io/images/offer_money.png",
                 "colors": [
-                    "#BA21BD",
-                    "#A151F0"
+                    "#F3F3F8"
+                ],
+                "url": "https://pocheshire.github.io/images/auto-recommendation3.png"
+            },
+            "deepLink": "finuslugi://insurance/kasko/purchase",
+            "analytics": {
+                "eventCategory": "automobile_mob",
+                "eventAction": "kasko_recommendation_click"
+            },
+            "layoutKey": "recommendations.automobileRecommendations"
+        },
+        {
+            "title": "MOEX Group – узнайте подробности о новом бренде ",
+            "background": {
+                "url": "https://pocheshire.github.io/images/auto-offer1.png",
+                "colors": [
+                    "#FF0508"
                 ]
             },
             "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
@@ -124,10 +139,25 @@
         {
             "title": "Поменяйте колеса со скидкой",
             "background": {
-                "url": "https://pocheshire.github.io/images/offer_tires.png",
+                "url": "https://pocheshire.github.io/images/auto-offer2.png",
                 "colors": [
-                    "#4E2FE8",
-                    "#516BF0"
+                    "#FEEDBA"
+                ]
+            },
+            "actionUrl": "https://pocheshire.github.io/images/offer_tires.png",
+            "analytics": {
+                "eventCategory": "automobile_mob",
+                "eventAction": "tires_change_offer_click",
+                "eventLabel": "some_label"
+            },
+            "layoutKey": "offers.automobileOffers"
+        },
+        {
+            "title": "Новое на Финуслугах: ипотечное страхование",
+            "background": {
+                "url": "https://pocheshire.github.io/images/auto-offer3.png",
+                "colors": [
+                    "#D7BFFF"
                 ]
             },
             "actionUrl": "https://pocheshire.github.io/images/offer_tires.png",
@@ -146,23 +176,23 @@
                 "eventLabel": "osago_usefuls"
             },
             "background": {
-                "url": "https://pocheshire.github.io/images/new-car-useful.png"
+                "url": "https://pocheshire.github.io/images/auto-useful1.png"
             },
             "layoutKey": "usefulTopics.automobileTopics",
             "title": "Статьи про ОСАГО"
         },
-        {
-            "actionUrl": "https://en.wikipedia.org/wiki/Comprehensive_Cover",
+    {
+            "actionUrl": "https://en.wikipedia.org/wiki/Insurance",
             "analytics": {
                 "eventAction": "topic_click",
                 "eventCategory": "automobile_mob",
-                "eventLabel": "osago_usefuls"
+                "eventLabel": "kasko_usefuls"
             },
             "background": {
-                "url": "https://pocheshire.github.io/images/new-car-useful.png"
+                "url": "https://pocheshire.github.io/images/auto-useful2.png"
             },
             "layoutKey": "usefulTopics.automobileTopics",
-            "title": "Статьи про КАСКО"
+            "title": "Статьи про Каско"
         }
     ]
 }
