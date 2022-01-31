@@ -55,15 +55,17 @@
     },
     "data": [
         {
-            "title": "Добавьте ОСАГО",
-            "description": "Чтобы Ваш полис всегда был под рукой",
             "background": {
                 "url": "https://pocheshire.github.io/images/uncover.png"
             },
-            "deepLink": "finuslugi://insurance/osago/attach",
-            "actionText": "Добавить",
+            "deepLink": "finuslugi://insurance/osago/vehicle_details/123",
             "custom": {
-                "state": "no-auto"
+                "state": "default",
+                "vehicleBrand": "BMW",
+                "vehicleModel": "5 series",
+                "vehicleLicensePlate": "А 111 АА 777",
+                "policyType": "ОСАГО",
+                "policyEndDate": "2022-06-06T15:45:13"
             },
             "analytics": {
                 "eventCategory": "automobile_mob",
