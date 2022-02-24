@@ -59,6 +59,7 @@
                 "url": "https://pocheshire.github.io/images/uncover.png"
             },
             "deepLink": "finuslugi://carinsurance/osago/details/4d7dbd8e-e874-4b58-bc32-f765ac8a08f1",
+            "actionTitle": "Продлить",
             "custom": {
                 "state": "deadline",
                 "vehicleBrand": "BMW",
