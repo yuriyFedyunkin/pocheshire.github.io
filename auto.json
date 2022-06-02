@@ -13,7 +13,7 @@
                 "component": "automobileProductCard",
                 "key": "automobileProductCard",
                 "props": {
-                    "displayType": "cardSingle"
+                    "displayType": "automobileProduct"
                 },
                 "prefetched": true
             },
@@ -73,6 +73,24 @@
                 "eventCategory": "automobile_mob",
                 "eventAction": "banner_click",
                 "eventLabel": "uncover"
+            },
+            "layoutKey": "automobileProductCard"
+        },
+        {
+            "background": "https://pocheshire.github.io/images/uncover.png",
+            "actionText": "Продолжить",
+            "analytics": {
+                "eventCategory": "automobile_mob",
+                "eventAction": "click_button_draft",
+                "eventLabel": "open_card"
+            },
+            "custom": {
+                "state": "draft",
+                "actionDeeplink": "finuslugi://carinsurance/osago/draft",
+                "vehicleBrand": "Tesla",
+                "vehicleModel": "Model 3",
+                "vehicleLicensePlate": "А 111 АА 777",
+                "text": "Осталось чуть-чуть. \nПродолжите оформление ОСАГО"
             },
             "layoutKey": "automobileProductCard"
         },
@@ -185,7 +203,7 @@
             "layoutKey": "usefulTopics.automobileTopics",
             "title": "Статьи про ОСАГО"
         },
-    {
+        {
             "actionUrl": "https://en.wikipedia.org/wiki/Insurance",
             "analytics": {
                 "eventAction": "topic_click",
