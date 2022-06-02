@@ -77,7 +77,9 @@
             "layoutKey": "automobileProductCard"
         },
         {
-            "background": "https://pocheshire.github.io/images/uncover.png",
+            "background": {
+                "url": "https://pocheshire.github.io/images/uncover.png"
+            },
             "actionText": "Продолжить",
             "analytics": {
                 "eventCategory": "automobile_mob",
