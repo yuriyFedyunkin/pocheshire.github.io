@@ -94,23 +94,24 @@
             "layoutKey": "automobileProductCard"
         },
         {
-            "actionText": "Оформить",
+            "actionText": "Продолжить",
             "analytics": {
-                "eventAction": "banner_click",
+                "eventAction": "click_button_draft",
                 "eventCategory": "automobile_mob",
-                "eventLabel": "buy_osago"
+                "eventLabel": "open_card"
             },
             "background": {
-                "url": "https:\/\/dev-minio.beta.moex.com\/mp-assets\/images\/auto\/pic-car.png"
+                "url": "https:\/\/pocheshire.github.io\/images\/uncover.png"
             },
             "custom": {
-                "state": "no-auto"
+                "actionDeeplink": "finuslugi:\/\/carinsurance\/osago\/draft",
+                "state": "draft",
+                "text": "Осталось чуть-чуть. \nПродолжите оформление ОСАГО",
+                "vehicleBrand": "Tesla",
+                "vehicleLicensePlate": "А 111 АА 777",
+                "vehicleModel": "Model 3"
             },
-            "deepLink": "finuslugi:\/\/carinsurance\/osago\/buyPolicy",
-            "description": "Выберите лучшую цену от 15 страховых",
-            "layoutKey": "automobileProductCard",
-            "order": 1,
-            "title": "ОСАГО"
+            "layoutKey": "automobileProductCard"
         },
         {
             "title": "ОСАГО",
