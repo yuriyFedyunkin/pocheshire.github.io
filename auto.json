@@ -115,26 +115,6 @@
             },
             "layoutKey": "automobileProductCard"
         },
-         {
-            "background": {
-                "url": "https://pocheshire.github.io/images/uncover.png"
-            },
-            "deepLink": "finuslugi://carinsurance/osago/details/4d7dbd8e-e874-4b58-bc32-f765ac8a08f1",
-            "custom": {
-                "state": "default",
-                "vehicleBrand": "Audi",
-                "vehicleModel": "A5",
-                "vehicleLicensePlate": "А 111 АА 777",
-                "policyType": "ОСАГО",
-                "policyEndDate": "2022-06-06T15:45:13",
-            },
-            "analytics": {
-                "eventCategory": "automobile_mob",
-                "eventAction": "banner_click",
-                "eventLabel": "uncover"
-            },
-            "layoutKey": "automobileProductCard"
-        },
         {
             "title": "ОСАГО",
             "description": "С выгодой до 55%",
