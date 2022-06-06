@@ -74,44 +74,42 @@
             "title": "ОСАГО"
         },
         {
-            "actionText" : "Продолжить",
-            "analytics" : {
-              "eventAction" : "click_button_draft",
-              "eventCategory" : "automobile_mob",
-              "eventLabel" : "open_card"
-            },
-            "background" : {
-              "url" : "https:\/\/pocheshire.github.io\/images\/uncover.png"
-            },
-            "custom" : {
-              "actionDeeplink" : "finuslugi:\/\/carinsurance\/osago\/draft",
-              "state" : "draft",
-              "text" : "Осталось чуть-чуть. \nПродолжите оформление ОСАГО",
-              "vehicleBrand" : "Tesla",
-              "vehicleLicensePlate" : "А 111 АА 777",
-              "vehicleModel" : "Model 3"
-            },
-            "layoutKey" : "automobileProductCard"
-          },
-        {
-            "background": {
-                "url": "https://pocheshire.github.io/images/uncover.png"
-            },
-            "deepLink": "finuslugi://carinsurance/osago/details/4d7dbd8e-e874-4b58-bc32-f765ac8a08f1",
-            "actionText": "Продлить",
-            "custom": {
-                "state": "deadline",
-                "vehicleBrand": "BMW",
-                "vehicleModel": "5 series",
-                "vehicleLicensePlate": "А 111 АА 777",
-                "policyType": "ОСАГО",
-                "policyEndDate": "2022-06-06T15:45:13",
-                "actionDeeplink": "finuslugi://carinsurance/osago/buyPolicy"
-            },
+            "actionText": "Продолжить",
             "analytics": {
+                "eventAction": "click_button_draft",
                 "eventCategory": "automobile_mob",
-                "eventAction": "banner_click",
-                "eventLabel": "uncover"
+                "eventLabel": "open_card"
+            },
+            "background": {
+                "url": "https:\/\/pocheshire.github.io\/images\/uncover.png"
+            },
+            "custom": {
+                "actionDeeplink": "finuslugi:\/\/carinsurance\/osago\/draft",
+                "state": "draft",
+                "text": "Осталось чуть-чуть. \nПродолжите оформление ОСАГО",
+                "vehicleBrand": "Tesla",
+                "vehicleLicensePlate": "А 111 АА 777",
+                "vehicleModel": "Model 3"
+            },
+            "layoutKey": "automobileProductCard"
+        },
+        {
+            "actionText": "Продолжить",
+            "analytics": {
+                "eventAction": "click_button_draft",
+                "eventCategory": "automobile_mob",
+                "eventLabel": "open_card"
+            },
+            "background": {
+                "url": "https:\/\/pocheshire.github.io\/images\/uncover.png"
+            },
+            "custom": {
+                "actionDeeplink": "finuslugi:\/\/carinsurance\/osago\/draft",
+                "state": "draft",
+                "text": "Осталось чуть-чуть. \nПродолжите оформление ОСАГО",
+                "vehicleBrand": "Tesla",
+                "vehicleLicensePlate": "А 111 АА 777",
+                "vehicleModel": "Model 3"
             },
             "layoutKey": "automobileProductCard"
         },
